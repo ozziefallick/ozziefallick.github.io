@@ -1,0 +1,182 @@
+body {
+    background:transparent url(../img/mooning.png) repeat left top;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 14px;
+    /*text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);*/
+}
+
+h3 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+}
+
+h4 {
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 0px;
+}
+
+table {
+    font-size: 12px;
+}
+
+#content {
+    margin: 0 auto;
+    padding: 0;
+    width: 830px;
+    height: auto;
+    text-align: left;
+    display: block;
+    background-color: #ffffff;
+    overflow: hidden;
+    -moz-box-shadow: 0 0 5px 5px #888;
+    -webkit-box-shadow: 0 0 5px 5px #888;
+    box-shadow: 0 0 5px 5px #888;
+}
+
+a {
+    color: #C11B17;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #800517;
+    font-style: italic;
+}
+
+hr {
+    border: none;
+    /* top    */ border-top: 1px solid #ccc;
+    /* middle */ background-color: #ddd; color: #ddd;
+    /* bottom */ border-bottom: 1px solid #eee;
+    height: 1px;
+    *height: 3px; /* IE6+7 need the total height */
+}
+
+#headshot {
+    width: 185px;
+    border: 1px solid #595959;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.subtitle {
+    font-size: 10px;
+}
+
+#sidebar {
+	 float: left;
+	 width: 200px;
+	 padding: 0px;
+}
+
+#sidebar-top {
+	 padding: 5px;
+	 border-right: 1px solid #595959;
+}
+
+#sidebar_filler {
+    height: auto;
+    border-right: 1px solid #595959;
+}
+
+#main {
+      float: left;
+      width: 600px;
+      margin: 5px;
+      padding: 5px;
+}
+
+.nav {
+    border-left: 5px solid #C11B17;
+    border-bottom: 1px solid #595959;
+    border-right: 1px solid #595959;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    height: 50px;
+    background: #C11B17;
+    color: white;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.nav .hover {
+    display: none;
+    font-weight: bold;
+}
+
+.nav:hover {
+    background: /*#C11B17*/white;
+    cursor: pointer;
+    color: black;
+}
+
+.nav:hover .normal {
+    display: none;
+}
+
+.nav:hover .hover {
+    display: inline;
+}
+
+.nav img {
+    height: 45px;
+    float: right;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+#name {
+    border-top: 1px solid #595959;
+}
+
+.column {
+    float: left;
+    margin-right: 20px;
+    font-size: 12px;
+}
+
+#courses {
+    overflow: hidden;
+}
+
+table.results {
+    border-collapse: collapse;
+    border: 1px solid #C11B17;
+}
+
+.results th, .results td {
+    border: 1px solid #C11B17;
+}
+
+.results th {
+    color: #ffffff;
+    background-color: #C11B17;
+}
+
+.results tr.alt td {
+    background-color: #F6CECE;
+}
+
+#medals td {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 12px;
+    padding: 0 0 0 10;
+    margin: 0px;
+}
+
+li:before {
+    content:"·";
+    font-size:40px;
+    vertical-align:middle;
+    line-height:12px;
+}
