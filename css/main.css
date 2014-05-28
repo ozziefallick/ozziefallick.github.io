@@ -152,6 +152,7 @@ table.results {
 
 .results th, .results td {
     border: 1px solid #C11B17;
+    padding: 2px;
 }
 
 .results th {
