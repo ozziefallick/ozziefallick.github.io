@@ -15,7 +15,7 @@ function setupSidebar(page) {
 	    if(page == "fencing")
 		document.getElementById("headshot").setAttribute("src", "img/fencing_headshot.jpg");
 	    else if(page == "umd")
-		document.getElementById("headshot").setAttribute("src", "img/grad_headshot.jpg");
+		document.getElementById("headshot").setAttribute("src", "img/umd_grad_headshot.jpg");
 	    else if(page == "work")
 		document.getElementById("headshot").setAttribute("src", "img/party_headshot.jpg");
 	    else if(page == "resume")
