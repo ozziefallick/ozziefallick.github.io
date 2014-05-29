@@ -138,11 +138,14 @@ hr {
 .column {
     float: left;
     margin-right: 20px;
-    font-size: 12px;
 }
 
 #courses {
     overflow: hidden;
+}
+
+#courses .column {
+    font-size: 12px;
 }
 
 table.results {
@@ -180,4 +183,30 @@ li:before {
     font-size:40px;
     vertical-align:middle;
     line-height:12px;
+}
+
+.info {
+    display: table;
+}
+
+.info img.club {
+    height: 50px;
+}
+
+.column {
+    display: table-cell;
+}
+
+#column-filler {
+    width: auto;
+    display: table-cell;
+}
+
+.ratings {
+    text-align: left;
+}
+
+table#affiliations td {
+    border-right: solid 20px transparent;
+    text-align: center;
 }
